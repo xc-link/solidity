@@ -27,6 +27,7 @@
 #include <libsolidity/ast/ASTEnums.h>
 #include <libsolidity/ast/ExperimentalFeatures.h>
 
+#include <libsolutil/Numeric.h>
 #include <libsolutil/SetOnce.h>
 
 #include <map>
@@ -171,6 +172,8 @@ struct ContractDefinitionAnnotation: TypeDeclarationAnnotation, StructurallyDocu
 
 	// Per-contract map from function AST IDs to internal dispatch function IDs.
 	std::map<FunctionDefinition const*, uint64_t> internalFunctionIDs;
+
+	solidity::u256 storageBaseLocationValue;
 };
 
 struct CallableDeclarationAnnotation: DeclarationAnnotation
