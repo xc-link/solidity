@@ -1,7 +1,7 @@
 ### 0.8.29 (unreleased)
 
 Language Features:
- * Introduce basic syntax for specifying contract storage base location.
+ * Introduce syntax for specifying contract storage base location.
 
 
 Compiler Features:
