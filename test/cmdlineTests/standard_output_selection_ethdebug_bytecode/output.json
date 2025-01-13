@@ -4,7 +4,322 @@
             "A1": {
                 "evm": {
                     "bytecode": {
-                        "ethdebug": {}
+                        "ethdebug": {
+                            "contract": {
+                                "definition": {
+                                    "sources": {
+                                        "id": 0
+                                    }
+                                },
+                                "name": "A1"
+                            },
+                            "environment": "create",
+                            "instructions": [
+                                {
+                                    "arguments": [
+                                        "0x80"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 0
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP1",
+                                    "offset": 2
+                                },
+                                {
+                                    "arguments": [
+                                        "0x40"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 3
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "MSTORE",
+                                    "offset": 5
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "CALLVALUE",
+                                    "offset": 6
+                                },
+                                {
+                                    "arguments": [
+                                        "0x13"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 7
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "JUMPI",
+                                    "offset": 9
+                                },
+                                {
+                                    "arguments": [
+                                        "0xa9"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 10
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "SWAP1",
+                                    "offset": 12
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP2",
+                                    "offset": 13
+                                },
+                                {
+                                    "arguments": [
+                                        "0x18"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 14
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP3",
+                                    "offset": 16
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "CODECOPY",
+                                    "offset": 17
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "RETURN",
+                                    "offset": 18
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "JUMPDEST",
+                                    "offset": 19
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH0",
+                                    "offset": 20
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP1",
+                                    "offset": 21
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "REVERT",
+                                    "offset": 22
+                                }
+                            ]
+                        }
                     }
                 },
                 "irOptimized": "/// ethdebug: enabled
@@ -52,7 +367,322 @@ object \"A1_14\" {
             "A2": {
                 "evm": {
                     "bytecode": {
-                        "ethdebug": {}
+                        "ethdebug": {
+                            "contract": {
+                                "definition": {
+                                    "sources": {
+                                        "id": 0
+                                    }
+                                },
+                                "name": "A2"
+                            },
+                            "environment": "create",
+                            "instructions": [
+                                {
+                                    "arguments": [
+                                        "0x80"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 0
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP1",
+                                    "offset": 2
+                                },
+                                {
+                                    "arguments": [
+                                        "0x40"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 3
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "MSTORE",
+                                    "offset": 5
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "CALLVALUE",
+                                    "offset": 6
+                                },
+                                {
+                                    "arguments": [
+                                        "0x13"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 7
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "JUMPI",
+                                    "offset": 9
+                                },
+                                {
+                                    "arguments": [
+                                        "0xa9"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 10
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "SWAP1",
+                                    "offset": 12
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP2",
+                                    "offset": 13
+                                },
+                                {
+                                    "arguments": [
+                                        "0x18"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 14
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP3",
+                                    "offset": 16
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "CODECOPY",
+                                    "offset": 17
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "RETURN",
+                                    "offset": 18
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "JUMPDEST",
+                                    "offset": 19
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH0",
+                                    "offset": 20
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP1",
+                                    "offset": 21
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract A2 { function a(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 0
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "REVERT",
+                                    "offset": 22
+                                }
+                            ]
+                        }
                     }
                 },
                 "irOptimized": "/// ethdebug: enabled
@@ -102,7 +732,322 @@ object \"A2_27\" {
             "A1": {
                 "evm": {
                     "bytecode": {
-                        "ethdebug": {}
+                        "ethdebug": {
+                            "contract": {
+                                "definition": {
+                                    "sources": {
+                                        "id": 1
+                                    }
+                                },
+                                "name": "A1"
+                            },
+                            "environment": "create",
+                            "instructions": [
+                                {
+                                    "arguments": [
+                                        "0x80"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 0
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP1",
+                                    "offset": 2
+                                },
+                                {
+                                    "arguments": [
+                                        "0x40"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 3
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "MSTORE",
+                                    "offset": 5
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "CALLVALUE",
+                                    "offset": 6
+                                },
+                                {
+                                    "arguments": [
+                                        "0x13"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 7
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "JUMPI",
+                                    "offset": 9
+                                },
+                                {
+                                    "arguments": [
+                                        "0xa9"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 10
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "SWAP1",
+                                    "offset": 12
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP2",
+                                    "offset": 13
+                                },
+                                {
+                                    "arguments": [
+                                        "0x18"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 14
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP3",
+                                    "offset": 16
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "CODECOPY",
+                                    "offset": 17
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "RETURN",
+                                    "offset": 18
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "JUMPDEST",
+                                    "offset": 19
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH0",
+                                    "offset": 20
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP1",
+                                    "offset": 21
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 123,
+                                                "offset": 58,
+                                                "value": "contract A1 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "REVERT",
+                                    "offset": 22
+                                }
+                            ]
+                        }
                     }
                 },
                 "irOptimized": "/// ethdebug: enabled
@@ -150,7 +1095,322 @@ object \"A1_42\" {
             "B2": {
                 "evm": {
                     "bytecode": {
-                        "ethdebug": {}
+                        "ethdebug": {
+                            "contract": {
+                                "definition": {
+                                    "sources": {
+                                        "id": 1
+                                    }
+                                },
+                                "name": "B2"
+                            },
+                            "environment": "create",
+                            "instructions": [
+                                {
+                                    "arguments": [
+                                        "0x80"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 0
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP1",
+                                    "offset": 2
+                                },
+                                {
+                                    "arguments": [
+                                        "0x40"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 3
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "MSTORE",
+                                    "offset": 5
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "CALLVALUE",
+                                    "offset": 6
+                                },
+                                {
+                                    "arguments": [
+                                        "0x13"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 7
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "JUMPI",
+                                    "offset": 9
+                                },
+                                {
+                                    "arguments": [
+                                        "0xa9"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 10
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "SWAP1",
+                                    "offset": 12
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP2",
+                                    "offset": 13
+                                },
+                                {
+                                    "arguments": [
+                                        "0x18"
+                                    ],
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH1",
+                                    "offset": 14
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP3",
+                                    "offset": 16
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "CODECOPY",
+                                    "offset": 17
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "RETURN",
+                                    "offset": 18
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "JUMPDEST",
+                                    "offset": 19
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "PUSH0",
+                                    "offset": 20
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "DUP1",
+                                    "offset": 21
+                                },
+                                {
+                                    "context": {
+                                        "code": {
+                                            "range": {
+                                                "length": 189,
+                                                "offset": 124,
+                                                "value": "contract B2 { function b(uint x) public pure { assert(x > 0); } }"
+                                            },
+                                            "source": {
+                                                "id": 1
+                                            }
+                                        }
+                                    },
+                                    "mnemonic": "REVERT",
+                                    "offset": 22
+                                }
+                            ]
+                        }
                     }
                 },
                 "irOptimized": "/// ethdebug: enabled

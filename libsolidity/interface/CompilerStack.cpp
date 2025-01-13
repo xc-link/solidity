@@ -1207,6 +1207,13 @@ Json CompilerStack::ethdebug(Contract const& _contract, bool _runtime) const
 	solAssert(_contract.contract);
 	solUnimplementedAssert(!isExperimentalSolidity());
 	Json result = Json::object();
+	Json contract = Json::object();
+	contract["name"] = _contract.contract->name();
+	Json definition = Json::object();
+	definition["sources"]["id"] = static_cast<int>(sourceIndices()[_contract.contract->sourceUnitName()]);
+	contract["definition"] = definition;
+	result["contract"] = contract;
+	result["environment"] = _runtime ? "call" : "create";
 	result["instructions"] = ethdebugInstructions(_contract, _runtime);
 	return result;
 }
