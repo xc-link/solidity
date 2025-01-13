@@ -21,16 +21,7 @@
                         "linkReferences": {},
                         "object": "<BYTECODE REMOVED>",
                         "opcodes":"<OPCODES REMOVED>",
-                        "sourceMap":"<SOURCEMAP REMOVED>",
-                        "subAssemblyOffsets": {
-                            "subs": [
-                                {
-                                    "isCreation": true,
-                                    "length": 7,
-                                    "start": 0
-                                }
-                            ]
-                        }
+                        "sourceMap":"<SOURCEMAP REMOVED>"
                     }
                 },
                 "ir": "object \"object\" {

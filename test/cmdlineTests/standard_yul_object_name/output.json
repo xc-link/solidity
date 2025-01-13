@@ -30,23 +30,7 @@ sub_0: assembly {
                         "linkReferences": {},
                         "object": "<BYTECODE REMOVED>",
                         "opcodes":"<OPCODES REMOVED>",
-                        "sourceMap":"<SOURCEMAP REMOVED>",
-                        "subAssemblyOffsets": {
-                            "subs": [
-                                {
-                                    "isCreation": true,
-                                    "length": 11,
-                                    "start": 0,
-                                    "subs": [
-                                        {
-                                            "isCreation": true,
-                                            "length": 3,
-                                            "start": 8
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
+                        "sourceMap":"<SOURCEMAP REMOVED>"
                     },
                     "deployedBytecode": {
                         "functionDebugData": {},
@@ -54,16 +38,7 @@ sub_0: assembly {
                         "linkReferences": {},
                         "object": "<BYTECODE REMOVED>",
                         "opcodes":"<OPCODES REMOVED>",
-                        "sourceMap":"<SOURCEMAP REMOVED>",
-                        "subAssemblyOffsets": {
-                            "subs": [
-                                {
-                                    "isCreation": true,
-                                    "length": 3,
-                                    "start": 0
-                                }
-                            ]
-                        }
+                        "sourceMap":"<SOURCEMAP REMOVED>"
                     }
                 },
                 "ir": "object \"NamedObject\" {

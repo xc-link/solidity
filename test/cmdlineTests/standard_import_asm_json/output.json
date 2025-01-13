@@ -13,13 +13,7 @@
                         "opcodes":"<OPCODES REMOVED>",
                         "sourceMap":"<SOURCEMAP REMOVED>",
                         "subAssemblyOffsets": {
-                            "subs": [
-                                {
-                                    "isCreation": true,
-                                    "length": 1,
-                                    "start": 0
-                                }
-                            ]
+                            "subs": []
                         }
                     },
                     "deployedBytecode": {

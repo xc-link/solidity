@@ -12,16 +12,9 @@
                         "subAssemblyOffsets": {
                             "subs": [
                                 {
-                                    "isCreation": true,
-                                    "length": 5,
-                                    "start": 0,
-                                    "subs": [
-                                        {
-                                            "isCreation": false,
-                                            "length": 87,
-                                            "start": 18446744073709551534
-                                        }
-                                    ]
+                                    "isCreation": false,
+                                    "length": 87,
+                                    "start": 0
                                 }
                             ]
                         }
