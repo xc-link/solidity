@@ -1948,10 +1948,10 @@ workflows:
 
   nightly:
 
-    triggers:
-      - schedule:
-          cron: "0 0 * * *"
-          <<: *on_develop
+#    triggers:
+#      - schedule:
+#          cron: "0 0 * * *"
+#          <<: *on_develop
 
     jobs:
       # ASan build and tests
